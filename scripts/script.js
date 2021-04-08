@@ -131,27 +131,40 @@ function vcredist(){
 
 // // ##############################################################################################
 
-// function (){
-//   const copyText = document.getElementById("");
-//   copyText.select();
-//   copyText.setSelectionRange(0, 9999990);
-//   document.execCommand('copy')
+function drivers(){
+  const copyText = document.getElementById("drivers");
+  copyText.select();
+  copyText.setSelectionRange(0, 9999990);
+  document.execCommand('copy')
   
-//   const tooltip = document.getElementById('myTootip');
-//   tooltip.innerHTML = "Copiado"
-// }
+  const tooltip = document.getElementById('myTootip');
+  tooltip.innerHTML = "Copiado"
+}
 
 // // ##############################################################################################
 
-// function (){
-//   const copyText = document.getElementById("");
-//   copyText.select();
-//   copyText.setSelectionRange(0, 9999990);
-//   document.execCommand('copy')
+function pct_sf(){
+  const copyText = document.getElementById("pct_sf");
+  copyText.select();
+  copyText.setSelectionRange(0, 9999990);
+  document.execCommand('copy')
   
-//   const tooltip = document.getElementById('myTootip');
-//   tooltip.innerHTML = "Copiado"
-// }
+  const tooltip = document.getElementById('myTootip');
+  tooltip.innerHTML = "Copiado"
+}
+
+
+// // ##############################################################################################
+
+function pweb_com(){
+  const copyText = document.getElementById("pweb_com");
+  copyText.select();
+  copyText.setSelectionRange(0, 9999990);
+  document.execCommand('copy')
+  
+  const tooltip = document.getElementById('myTootip');
+  tooltip.innerHTML = "Copiado"
+}
 
 // // ##############################################################################################
 
