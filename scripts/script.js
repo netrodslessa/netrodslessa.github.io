@@ -107,8 +107,8 @@ function h7x(){
 
 // // ##############################################################################################
 
-function pct_inp(){
-  const copyText = document.getElementById("pct_inp");
+function pct_imp(){
+  const copyText = document.getElementById("pct_imp");
   copyText.select();
   copyText.setSelectionRange(0, 9999990);
   document.execCommand('copy')
